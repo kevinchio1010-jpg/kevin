@@ -1,0 +1,103 @@
+.navbar-brand img {
+    max-height: 40px;
+}
+
+section {
+    margin-top: 100px;
+    color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.me {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);-
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    /* 允許換行 */
+    gap: 20px;
+    /* 卡片間距 */
+    justify-content: center;
+    /* 水平置中 */
+    padding: 20px;
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 20px);
+    /* 固定三等分 */
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    /* 避免寬度計算錯誤 */
+}
+
+
+
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.abc {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.abcd {
+    flex: 0 0 calc(33.333% - 20px);
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.abcd:hover {
+    transform: translateY(-5px);
+    background: #e0f7fa;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer small {
+    opacity: 0.8;
+}
+
+h1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
