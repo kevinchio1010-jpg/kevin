@@ -1,0 +1,84 @@
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    padding: 10px 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 1px 3px 3px rgb(240, 240, 240)
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 3.5em;
+}
+
+.products {
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px auto;
+}
+
+.item {
+    width: 350px;
+    height: 425px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item h2 {
+    font-size: 1.6em;
+    margin: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.item p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.item a {
+    background-color: #f5f5ff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 100px;
+    color: #444;
+}
+
+.item a:hover {
+    background-color: #e0e0e0;
+}

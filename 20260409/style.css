@@ -1,0 +1,154 @@
+body {
+    background: lightcyan url(img/bg.png)repeat-x;
+}
+
+a {
+    color: red;
+}
+
+h1 {
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid rgb(54, 33, 0);
+    background-color: rgb(54, 33, 0);
+    color: darkseagreen;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px darkseagreen;
+    box-shadow: 0 0 10px rgb(54, 33, 0);
+    background-image: linear-gradient(to bottom, rgb(54, 33, 0), #585858);
+    font-family: 'limelight', cursive;
+}
+
+h2 {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #585858;
+    border-left: 10px solid rgb(54, 33, 0);
+    color: mediumorchid;
+}
+
+#contents {
+    width: 798px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #123456;
+    background-color: darkolivegreen;
+}
+
+.more {
+    text-align: right;
+}
+
+.h {
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px 0 0 5px;
+    border: 1px dotted #585858;
+    border-left: 10px solid rgb(54, 33, 0);
+    color: mediumorchid;
+}
+
+.h-sub {
+    padding: 10px;
+    background-color: #90af3b;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #c9702c inset;
+}
+
+.h-sub span {
+    font-weight: normal;
+}
+
+section+section {
+    margin-top: 80px;
+}
+
+#contents>section+section {
+    margin-top: 80px;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+}
+
+a {
+    color: darkslategrey;
+}
+
+a:hover {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+.more {
+    text-align: right;
+}
+
+.more::after {
+    content: url(img/ico_arrow.png);
+    margin-left:  3px;
+    vertical-align: middle;
+}
+
+a[href="mailto:"]::after {
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+a[target="_blank"]::after {
+    content: url(img/ico_blank.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    background: #ce8c4f;
+    border-radius: 8px;
+    color: #123456;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #e4ad7a;
+}
+
+.imgL {
+    float: left;
+    margin-right: 20px;
+}
+
+.imgR {
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.img-round {
+    border-radius: 50%;
+}
